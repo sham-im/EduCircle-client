@@ -8,9 +8,6 @@ function App() {
 // njbijokpkojikhkoj
 // njbijokpkojikhkoj
 // njbijokpkojikhkoj
-// njbijokpkojikhkoj
-// njbijokpkojikhkoj
-// njbijokpkojikhkoj
 return (
     <>
       <h1>Vite + React</h1>
