@@ -21,13 +21,24 @@
 // export default MainRoutes;
 
 import {
-    createBrowserRouter,
-  } from "react-router-dom";
+  createBrowserRouter,
+} from "react-router-dom";
+import MainLayouts from "../Layouts/MainLayouts";
+import Home from "../pages/Home";
+import Navbar from "../pages/Shared/Navbar";
+import Footer from "../pages/Footer";
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Home></Home>,
-    },
-  ]);
-  export default router;
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayouts />,
+    errorElement: <div> Not Found</div>,
+    children: [
+      {
+        path: '/',
+        element: <Navbar />,
+      },
+    ],
+  }
+]);
+export default router;

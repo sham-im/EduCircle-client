@@ -5,13 +5,6 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-// njbijokpkojikhkoj
-// njbijokpkojikhkoj// njbijokpkojikhkoj
-// njbijokpkojikhkoj// njbijokpkojikhkoj
-// njbijokpkojikhkoj// njbijokpkojikhkoj
-// njbijokpkojikhkoj// njbijokpkojikhkoj
-// njbijokpkojikhkoj// njbijokpkojikhkoj
-// njbijokpkojikhkoj
 return (
     <>
       <h1>Vite + React</h1>
