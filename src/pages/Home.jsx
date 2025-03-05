@@ -21,9 +21,6 @@ const Home = () => {
                 <h1>Welcome to EduCircle</h1>
             </header>
             <main>
-                {/* fgvhbjnkmoiuytvubinjkml;jhg */}
-                {/* fgvhbjnkmoiuytvubinjkml;jhg */}
-
                 <section>
                     <h2>About Us</h2>
                     <p>EduCircle is a platform dedicated to providing quality education resources.</p>
