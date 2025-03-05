@@ -23,8 +23,7 @@ const Home = () => {
             <main>
                 {/* fgvhbjnkmoiuytvubinjkml;jhg */}
                 {/* fgvhbjnkmoiuytvubinjkml;jhg */}
-                {/* fgvhbjnkmoiuytvubinjkml;jhg */}
-                {/* fgvhbjnkmoiuytvubinjkml;jhg */}
+
                 <section>
                     <h2>About Us</h2>
                     <p>EduCircle is a platform dedicated to providing quality education resources.</p>
