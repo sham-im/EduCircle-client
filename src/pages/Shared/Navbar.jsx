@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="w-11/12 flex justify-between items-center bg-base-100">
                 <div className="flex-none flex items-center space-x-2">
                     <img className='h-10 rounded-sm' src={logo} alt="" />
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl">Educircle</a>
                 </div>
                 <div className='space-x-3'>
                     <Link to='/assignments' className='btn bg-none'>Assgignments</Link>
@@ -23,6 +23,8 @@ const Navbar = () => {
                                 <summary><img className='h-10 w-10 rounded-full' src={logo} alt="" /></summary>
                                 <ul className="bg-base-100 rounded-t-none p-2">
                                     <li><a>Create Assignments </a></li>
+                                    <li><a>My Attempted Assignments </a></li>
+                                    <li><a>My Attempted Assignments </a></li>
                                     <li><a>My Attempted Assignments </a></li>
                                 </ul>
                             </details>
