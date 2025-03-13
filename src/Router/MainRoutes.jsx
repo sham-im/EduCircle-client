@@ -27,6 +27,8 @@ import MainLayouts from "../Layouts/MainLayouts";
 import Home from "../pages/Home";
 import Navbar from "../pages/Shared/Navbar";
 import Footer from "../pages/Footer";
+import Login from "../authPages/Login";
+import RegisterPage from "../authPages/RegisterPage";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +38,35 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Navbar />,
+        element: <Home></Home>,
+      },
+      {
+        path: '/login',
+        element: <Login></Login>,
+      },
+      {
+        path: '/Register',
+        element: <RegisterPage></RegisterPage>,
+      },
+      {
+        path: '/Assignments',
+        element: <Home></Home>,
+      },
+      {
+        path: '/createAssignments',
+        element: <Home></Home>,
+      },
+      {
+        path: '/myAssignments',
+        element: <Home></Home>,
+      },
+      {
+        path: '/pendingAssignments',
+        element: <Home></Home>,
+      },
+      {
+        path: '/',
+        element: <Home></Home>,
       },
     ],
   }
