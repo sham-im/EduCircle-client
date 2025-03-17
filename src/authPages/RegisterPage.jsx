@@ -26,6 +26,7 @@ const RegisterPage = () => {
     }
 
     // Handle registration logic here (e.g., call an API or Firebase authentication)
+    // Handle registration logic here (e.g., call an API or Firebase authentication)
     // Assuming registration is successful:
     Swal.fire({
       title: "Success!",
