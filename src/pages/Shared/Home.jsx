@@ -13,11 +13,12 @@
 
 
 import React from 'react';
+import Banner from '../components/HomePages/Banner';
 
 const Home = () => {
     return (
         <div className='flex flex-col items-center justify-center h-screen'>
-            <header>
+            {/* <header>
                 <h1>Welcome to EduCircle</h1>
             </header>
             <main>
@@ -36,7 +37,8 @@ const Home = () => {
             </main>
             <footer>
                 <p>&copy; 2023 EduCircle. All rights reserved.</p>
-            </footer>
+            </footer> */}
+            <Banner></Banner>
         </div>
     );
 };

@@ -24,12 +24,10 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import MainLayouts from "../Layouts/MainLayouts";
-import Home from "../pages/Home";
-import Navbar from "../pages/Shared/Navbar";
-import Footer from "../pages/Footer";
 import Login from "../authPages/Login";
+import Home from "../pages/Shared/Home";
+import FAQ from "../pages/components/HomePages/Faq";
 import RegisterPage from "../authPages/RegisterPage";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -65,8 +63,8 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/',
-        element: <Home></Home>,
+        path: '/FAQ',
+        element: <FAQ></FAQ>,
       },
     ],
   }

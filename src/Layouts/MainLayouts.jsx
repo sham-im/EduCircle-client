@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../pages/Footer";
-import LoginRegister from "../authPages/Login";
-import RegisterPage from "../authPages/RegisterPage";
+// import Footer from "../pages/Footer";
+import Footer from "../pages/Shared/Footer";
 import Navbar from "../pages/Shared/Navbar";
 
 const MainLayouts = () => {
@@ -9,7 +8,7 @@ const MainLayouts = () => {
     <div className="max-w-10/12 mx-auto">
       <Navbar />
       <Outlet />
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 };
